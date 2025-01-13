@@ -72,4 +72,6 @@ def main():
 
 main()
 ```
+Here is the [documentation](https://langfuse.com/docs/prompts/get-started) of the Langfuse prompt management. 
+
 ![alt text](image.png)
