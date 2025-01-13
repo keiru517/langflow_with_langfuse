@@ -9,10 +9,6 @@ langfuse = Langfuse()
 def nested_generation():
     prompt = langfuse.get_prompt("Test")
 
-    # langfuse_context.update_current_observation(
-    #     prompt=prompt,
-    # )
-
     response = (
         openai.chat.completions.create(
             model="gpt-3.5-turbo",
