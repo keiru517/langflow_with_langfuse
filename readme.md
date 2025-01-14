@@ -1,6 +1,10 @@
 # Langflow with Langfuse
 This shows how to integrate Langfuse with Langflow and how to link the prompt generation with the LLM calls.
 
+## Explanation about python files
+- `langflow_api.py`: This file is the Langflow API. It is used to run the flow and get the response from the flow.
+- `prompt_generation.py`: This file is used to generate the prompt and link it with the LLM calls.
+
 ## How to integrate Langfuse with Langflow
 ### Setup
 - Install dependencies to virtual environment
