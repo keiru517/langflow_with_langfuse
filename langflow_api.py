@@ -104,7 +104,6 @@ def run_flow(
 
 @observe()
 def main():
-
     response = run_flow(
         message="",  # message to send to the flow
         endpoint=FLOW_ID,
