@@ -36,6 +36,7 @@ This will redirect to the langflow dashboard to create flow with components.
 Once you run the flow, you can see the trace in `Langfuse`.
 
 ## How to trace prompt generation with LLM calls
+- By using the `observe` decorator, we can trace the prompt generation with the LLM calls.
 - Export OPENAI_API_KEY in the virtual environment.
 - Run the flow and see the trace in Langfuse.
 ```python
